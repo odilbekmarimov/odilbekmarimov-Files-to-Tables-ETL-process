@@ -65,7 +65,7 @@ The main dependencies are:
 1. Press `Win` then search for `Task Scheduler` and open it.
 ![alt text](screenshots/screen.png)
 
-2. Navigate to left tool bar then select `Import Task`
+2. Navigate to right tool bar then select `Import Task`
  ![alt text](screenshots/import.png)
 
 3. Navigate to the clone of the repository, then select `scheduler_template.xml` file
