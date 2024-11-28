@@ -43,8 +43,8 @@ The main dependencies are:
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Files-to-Tables-ETL-process.git
-   cd Files-to-Tables-ETL-process
+   git clone https://github.com/odilbekmarimov-Files-to-Tables-ETL-process.git
+   cd odilbekmarimov-Files-to-Tables-ETL-process
    ```
 
 2. Ensure the required Python libraries are installed:
