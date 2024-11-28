@@ -1,0 +1,88 @@
+[2024-11-28 23:31:08]	 Log file: program_log.txt created.
+[2024-11-28 23:31:08]	Processing files has started
+[2024-11-28 23:31:08]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:08]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:08]	Database [python_final] already exists.
+[2024-11-28 23:31:08]	Connecting to server [localhost\SQLEXPRESS] 
+[2024-11-28 23:31:08]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:08]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:08]	Processing dim_currency.csv into table dim_currency
+[2024-11-28 23:31:08]	Table name: dim_currency
+[2024-11-28 23:31:08]	Creating table with query: create table dim_currency ([CurrencyKey] INT, [CurrencyAlternateKey] NVARCHAR(MAX), [CurrencyName] NVARCHAR(MAX))
+[2024-11-28 23:31:08]	Table dim_currency created
+[2024-11-28 23:31:08]	Processing dim_customer.csv into table dim_customer
+[2024-11-28 23:31:08]	Table name: dim_customer
+[2024-11-28 23:31:08]	Creating table with query: create table dim_customer ([CustomerKey] INT, [FirstName] NVARCHAR(MAX), [MiddleName] NVARCHAR(MAX), [LastName] NVARCHAR(MAX), [NameStyle] BIT, [BirthDate] NVARCHAR(MAX), [MaritalStatus] NVARCHAR(MAX), [Suffix] NVARCHAR(MAX), [Gender] NVARCHAR(MAX), [EmailAddress] NVARCHAR(MAX), [YearlyIncome] FLOAT, [TotalChildren] INT, [AddressLine1] NVARCHAR(MAX), [AddressLine2] NVARCHAR(MAX), [Phone] NVARCHAR(MAX))
+[2024-11-28 23:31:17]	Table dim_customer created
+[2024-11-28 23:31:17]	Processing dim_date.csv into table dim_date
+[2024-11-28 23:31:17]	Table name: dim_date
+[2024-11-28 23:31:17]	Creating table with query: create table dim_date ([DateKey] INT, [FullDateAlternateKey] NVARCHAR(MAX), [DayNumberOfWeek] INT, [EnglishDayNameOfWeek] NVARCHAR(MAX), [SpanishDayNameOfWeek] NVARCHAR(MAX), [DayNumberOfMonth] INT, [DayNumberOfYear] INT, [WeekNumberOfYear] INT, [EnglishMonthName] NVARCHAR(MAX), [SpanishMonthName] NVARCHAR(MAX), [MonthNumberOfYear] INT, [CalendarQuarter] INT, [CalendarYear] INT, [CalendarSemester] INT, [FiscalQuarter] INT, [FiscalYear] INT, [FiscalSemester] INT)
+[2024-11-28 23:31:17]	Table dim_date created
+[2024-11-28 23:31:17]	Processing dim_product.csv into table dim_product
+[2024-11-28 23:31:17]	Table name: dim_product
+[2024-11-28 23:31:17]	Creating table with query: create table dim_product ([ProductKey] INT, [ProductAlternateKey] NVARCHAR(MAX), [EnglishProductName] NVARCHAR(MAX), [SpanishProductName] NVARCHAR(MAX), [Color] NVARCHAR(MAX), [ListPrice] FLOAT, [Size] NVARCHAR(MAX), [Weight] FLOAT, [DaysToManufacture] INT, [Status] NVARCHAR(MAX))
+[2024-11-28 23:31:18]	Table dim_product created
+[2024-11-28 23:31:18]	Processing fact_internet_sales.csv into table fact_internet_sales
+[2024-11-28 23:31:18]	Table name: fact_internet_sales
+[2024-11-28 23:31:18]	Creating table with query: create table fact_internet_sales ([ProductKey] INT, [OrderDateKey] INT, [CustomerKey] INT, [CurrencyKey] INT, [OrderQuantity] INT, [UnitPrice] FLOAT, [ExtendedAmount] FLOAT, [UnitPriceDiscountPct] FLOAT, [DiscountAmount] FLOAT, [ProductStandardCost] FLOAT, [TotalProductCost] FLOAT, [SalesAmount] FLOAT, [TaxAmt] FLOAT, [Freight] FLOAT)
+[2024-11-28 23:31:23]	Table fact_internet_sales created
+[2024-11-28 23:31:23]	Processing files has finished
+
+[2024-11-28 23:31:43]	Processing files has started
+[2024-11-28 23:31:43]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:43]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:43]	Database [python_final] already exists.
+[2024-11-28 23:31:43]	Connecting to server [localhost\SQLEXPRESS] 
+[2024-11-28 23:31:43]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:43]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:31:43]	Processing dim_currency.csv into table dim_currency
+[2024-11-28 23:31:43]	Table name: dim_currency
+[2024-11-28 23:31:43]	Creating table with query: create table dim_currency ([CurrencyKey] INT, [CurrencyAlternateKey] NVARCHAR(MAX), [CurrencyName] NVARCHAR(MAX))
+[2024-11-28 23:31:43]	Table dim_currency created
+[2024-11-28 23:31:43]	Processing dim_customer.csv into table dim_customer
+[2024-11-28 23:31:43]	Table name: dim_customer
+[2024-11-28 23:31:43]	Creating table with query: create table dim_customer ([CustomerKey] INT, [FirstName] NVARCHAR(MAX), [MiddleName] NVARCHAR(MAX), [LastName] NVARCHAR(MAX), [NameStyle] BIT, [BirthDate] NVARCHAR(MAX), [MaritalStatus] NVARCHAR(MAX), [Suffix] NVARCHAR(MAX), [Gender] NVARCHAR(MAX), [EmailAddress] NVARCHAR(MAX), [YearlyIncome] FLOAT, [TotalChildren] INT, [AddressLine1] NVARCHAR(MAX), [AddressLine2] NVARCHAR(MAX), [Phone] NVARCHAR(MAX))
+[2024-11-28 23:31:52]	Table dim_customer created
+[2024-11-28 23:31:52]	Processing dim_date.csv into table dim_date
+[2024-11-28 23:31:52]	Table name: dim_date
+[2024-11-28 23:31:52]	Creating table with query: create table dim_date ([DateKey] INT, [FullDateAlternateKey] NVARCHAR(MAX), [DayNumberOfWeek] INT, [EnglishDayNameOfWeek] NVARCHAR(MAX), [SpanishDayNameOfWeek] NVARCHAR(MAX), [DayNumberOfMonth] INT, [DayNumberOfYear] INT, [WeekNumberOfYear] INT, [EnglishMonthName] NVARCHAR(MAX), [SpanishMonthName] NVARCHAR(MAX), [MonthNumberOfYear] INT, [CalendarQuarter] INT, [CalendarYear] INT, [CalendarSemester] INT, [FiscalQuarter] INT, [FiscalYear] INT, [FiscalSemester] INT)
+[2024-11-28 23:31:52]	Table dim_date created
+[2024-11-28 23:31:52]	Processing dim_product.csv into table dim_product
+[2024-11-28 23:31:52]	Table name: dim_product
+[2024-11-28 23:31:52]	Creating table with query: create table dim_product ([ProductKey] INT, [ProductAlternateKey] NVARCHAR(MAX), [EnglishProductName] NVARCHAR(MAX), [SpanishProductName] NVARCHAR(MAX), [Color] NVARCHAR(MAX), [ListPrice] FLOAT, [Size] NVARCHAR(MAX), [Weight] FLOAT, [DaysToManufacture] INT, [Status] NVARCHAR(MAX))
+[2024-11-28 23:31:53]	Table dim_product created
+[2024-11-28 23:31:53]	Processing fact_internet_sales.csv into table fact_internet_sales
+[2024-11-28 23:31:53]	Table name: fact_internet_sales
+[2024-11-28 23:31:53]	Creating table with query: create table fact_internet_sales ([ProductKey] INT, [OrderDateKey] INT, [CustomerKey] INT, [CurrencyKey] INT, [OrderQuantity] INT, [UnitPrice] FLOAT, [ExtendedAmount] FLOAT, [UnitPriceDiscountPct] FLOAT, [DiscountAmount] FLOAT, [ProductStandardCost] FLOAT, [TotalProductCost] FLOAT, [SalesAmount] FLOAT, [TaxAmt] FLOAT, [Freight] FLOAT)
+[2024-11-28 23:31:58]	Table fact_internet_sales created
+[2024-11-28 23:31:58]	Processing files has finished
+
+[2024-11-28 23:49:06]	Processing files has started
+[2024-11-28 23:49:06]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:49:06]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:49:06]	Database [python_final] already exists.
+[2024-11-28 23:49:06]	Connecting to server [localhost\SQLEXPRESS] 
+[2024-11-28 23:49:06]	Connecting to server [localhost\SQLEXPRESS]
+[2024-11-28 23:49:06]	Connected to server [localhost\SQLEXPRESS]
+[2024-11-28 23:49:06]	Processing dim_currency.csv into table dim_currency
+[2024-11-28 23:49:06]	Table name: dim_currency
+[2024-11-28 23:49:06]	Creating table with query: create table dim_currency ([CurrencyKey] INT, [CurrencyAlternateKey] NVARCHAR(MAX), [CurrencyName] NVARCHAR(MAX))
+[2024-11-28 23:49:07]	Table dim_currency created
+[2024-11-28 23:49:07]	Processing dim_customer.csv into table dim_customer
+[2024-11-28 23:49:07]	Table name: dim_customer
+[2024-11-28 23:49:07]	Creating table with query: create table dim_customer ([CustomerKey] INT, [FirstName] NVARCHAR(MAX), [MiddleName] NVARCHAR(MAX), [LastName] NVARCHAR(MAX), [NameStyle] BIT, [BirthDate] NVARCHAR(MAX), [MaritalStatus] NVARCHAR(MAX), [Suffix] NVARCHAR(MAX), [Gender] NVARCHAR(MAX), [EmailAddress] NVARCHAR(MAX), [YearlyIncome] FLOAT, [TotalChildren] INT, [AddressLine1] NVARCHAR(MAX), [AddressLine2] NVARCHAR(MAX), [Phone] NVARCHAR(MAX))
+[2024-11-28 23:49:15]	Table dim_customer created
+[2024-11-28 23:49:15]	Processing dim_date.csv into table dim_date
+[2024-11-28 23:49:15]	Table name: dim_date
+[2024-11-28 23:49:15]	Creating table with query: create table dim_date ([DateKey] INT, [FullDateAlternateKey] NVARCHAR(MAX), [DayNumberOfWeek] INT, [EnglishDayNameOfWeek] NVARCHAR(MAX), [SpanishDayNameOfWeek] NVARCHAR(MAX), [DayNumberOfMonth] INT, [DayNumberOfYear] INT, [WeekNumberOfYear] INT, [EnglishMonthName] NVARCHAR(MAX), [SpanishMonthName] NVARCHAR(MAX), [MonthNumberOfYear] INT, [CalendarQuarter] INT, [CalendarYear] INT, [CalendarSemester] INT, [FiscalQuarter] INT, [FiscalYear] INT, [FiscalSemester] INT)
+[2024-11-28 23:49:15]	Table dim_date created
+[2024-11-28 23:49:15]	Processing dim_product.csv into table dim_product
+[2024-11-28 23:49:15]	Table name: dim_product
+[2024-11-28 23:49:15]	Creating table with query: create table dim_product ([ProductKey] INT, [ProductAlternateKey] NVARCHAR(MAX), [EnglishProductName] NVARCHAR(MAX), [SpanishProductName] NVARCHAR(MAX), [Color] NVARCHAR(MAX), [ListPrice] FLOAT, [Size] NVARCHAR(MAX), [Weight] FLOAT, [DaysToManufacture] INT, [Status] NVARCHAR(MAX))
+[2024-11-28 23:49:16]	Table dim_product created
+[2024-11-28 23:49:16]	Processing fact_internet_sales.csv into table fact_internet_sales
+[2024-11-28 23:49:16]	Table name: fact_internet_sales
+[2024-11-28 23:49:16]	Creating table with query: create table fact_internet_sales ([ProductKey] INT, [OrderDateKey] INT, [CustomerKey] INT, [CurrencyKey] INT, [OrderQuantity] INT, [UnitPrice] FLOAT, [ExtendedAmount] FLOAT, [UnitPriceDiscountPct] FLOAT, [DiscountAmount] FLOAT, [ProductStandardCost] FLOAT, [TotalProductCost] FLOAT, [SalesAmount] FLOAT, [TaxAmt] FLOAT, [Freight] FLOAT)
+[2024-11-28 23:49:21]	Table fact_internet_sales created
+[2024-11-28 23:49:21]	Processing files has finished
+
